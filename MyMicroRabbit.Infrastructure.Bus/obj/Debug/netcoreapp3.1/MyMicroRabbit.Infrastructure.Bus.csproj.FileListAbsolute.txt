@@ -1,0 +1,12 @@
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Infrastructure.Bus\bin\Debug\netcoreapp3.1\MyMicroRabbit.Infrastructure.Bus.deps.json
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Infrastructure.Bus\bin\Debug\netcoreapp3.1\MyMicroRabbit.Infrastructure.Bus.dll
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Infrastructure.Bus\bin\Debug\netcoreapp3.1\MyMicroRabbit.Domain.Core.dll
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Infrastructure.Bus\bin\Debug\netcoreapp3.1\MyMicroRabbit.Domain.Core.pdb
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Infrastructure.Bus\obj\Debug\netcoreapp3.1\MyMicroRabbit.Infrastructure.Bus.csprojAssemblyReference.cache
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Infrastructure.Bus\obj\Debug\netcoreapp3.1\MyMicroRabbit.Infrastructure.Bus.AssemblyInfoInputs.cache
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Infrastructure.Bus\obj\Debug\netcoreapp3.1\MyMicroRabbit.Infrastructure.Bus.AssemblyInfo.cs
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Infrastructure.Bus\obj\Debug\netcoreapp3.1\MyMicroRabbit.Infrastructure.Bus.csproj.CopyComplete
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Infrastructure.Bus\bin\Debug\netcoreapp3.1\MyMicroRabbit.Infrastructure.Bus.pdb
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Infrastructure.Bus\obj\Debug\netcoreapp3.1\MyMicroRabbit.Infrastructure.Bus.csproj.CoreCompileInputs.cache
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Infrastructure.Bus\obj\Debug\netcoreapp3.1\MyMicroRabbit.Infrastructure.Bus.dll
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Infrastructure.Bus\obj\Debug\netcoreapp3.1\MyMicroRabbit.Infrastructure.Bus.pdb
