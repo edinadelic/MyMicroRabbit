@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "MyMicroRabbit.Banking.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/MyMicroRabbit.Banking.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyMicroRabbit.Banking.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MyMicroRabbit.Banking.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MyMicroRabbit.Banking.Domain/MyMicroRabbit.Banking.Domain.csproj",
+      "msbuildProject": "../MyMicroRabbit.Banking.Domain/MyMicroRabbit.Banking.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "MyMicroRabbit.Banking.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\mdade\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\mdade\\MyMicroRabbit\\MyMicroRabbit.Banking.Domain\\MyMicroRabbit.Banking.Domain.csproj": {
+              "projectPath": "C:\\Users\\mdade\\MyMicroRabbit\\MyMicroRabbit.Banking.Domain\\MyMicroRabbit.Banking.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
