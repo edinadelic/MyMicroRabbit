@@ -13,8 +13,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 using MyMicroRabbit.Banking.Data.Context;
 using MyMicroRabbit.Infra.IoC;
+
 
 namespace MyMicroRabbit.Banking.Api
 {
@@ -32,7 +34,14 @@ namespace MyMicroRabbit.Banking.Api
         {
             services.AddDbContext<BankingDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("BankingDbConnection")));
             services.AddControllers();
-            services.AddMediatR(typeof(Startup).GetTypeInfo().Assembly);
+            services.AddMediatR(typeof(Startup));
+            services.AddSwaggerGen(c => c.SwaggerDoc("v1", new OpenApiInfo
+            {
+                Title = "BankingMicroservice",
+                Version = "v1",
+                Description = "Description for the API goes here.",
+            }));
+            services.AddSwaggerGenNewtonsoftSupport();
             RegisterServices(services);
         }
 
@@ -54,10 +63,23 @@ namespace MyMicroRabbit.Banking.Api
             app.UseRouting();
 
             app.UseAuthorization();
+            
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+            // Enable middleware to serve generated Swagger as a JSON endpoint.
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "BankingMicroservice v1");
+
+                //// To serve SwaggerUI at application's root page, set the RoutePrefix property to an empty string.
+                //c.RoutePrefix = string.Empty;
             });
         }
     }
