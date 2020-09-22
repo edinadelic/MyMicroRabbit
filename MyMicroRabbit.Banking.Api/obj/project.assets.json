@@ -1558,7 +1558,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "MyMicroRabbit.Banking.Domain": "1.0.0"
+          "MyMicroRabbit.Banking.Domain": "1.0.0",
+          "MyMicroRabbit.Domain.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/MyMicroRabbit.Banking.Application.dll": {}
@@ -1580,14 +1581,14 @@
         },
         "runtime": {
           "bin/placeholder/MyMicroRabbit.Banking.Data.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "MyMicroRabbit.Banking.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MyMicroRabbit.Domain.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/MyMicroRabbit.Banking.Domain.dll": {}
         },
@@ -1612,6 +1613,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "MediatR": "8.1.0",
           "Microsoft.Extensions.DependencyInjection": "3.1.8",
           "MyMicroRabbit.Banking.Application": "1.0.0",
           "MyMicroRabbit.Banking.Data": "1.0.0",
@@ -1623,10 +1625,7 @@
         },
         "runtime": {
           "bin/placeholder/MyMicroRabbit.Infra.IoC.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "MyMicroRabbit.Infrastructure.Bus/1.0.0": {
         "type": "project",

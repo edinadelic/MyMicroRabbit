@@ -112,6 +112,9 @@
             "projectReferences": {
               "C:\\Users\\mdade\\MyMicroRabbit\\MyMicroRabbit.Banking.Domain\\MyMicroRabbit.Banking.Domain.csproj": {
                 "projectPath": "C:\\Users\\mdade\\MyMicroRabbit\\MyMicroRabbit.Banking.Domain\\MyMicroRabbit.Banking.Domain.csproj"
+              },
+              "C:\\Users\\mdade\\MyMicroRabbit\\MyMicroRabbit.Domain.Core\\MyMicroRabbit.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\mdade\\MyMicroRabbit\\MyMicroRabbit.Domain.Core\\MyMicroRabbit.Domain.Core.csproj"
               }
             }
           }
@@ -243,7 +246,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\mdade\\MyMicroRabbit\\MyMicroRabbit.Domain.Core\\MyMicroRabbit.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\mdade\\MyMicroRabbit\\MyMicroRabbit.Domain.Core\\MyMicroRabbit.Domain.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -378,6 +385,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[3.1.8, )"
@@ -394,9 +405,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

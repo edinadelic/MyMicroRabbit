@@ -1487,7 +1487,8 @@
       },
       "MyMicroRabbit.Banking.Application/1.0.0": {
         "dependencies": {
-          "MyMicroRabbit.Banking.Domain": "1.0.0"
+          "MyMicroRabbit.Banking.Domain": "1.0.0",
+          "MyMicroRabbit.Domain.Core": "1.0.0"
         },
         "runtime": {
           "MyMicroRabbit.Banking.Application.dll": {}
@@ -1510,6 +1511,9 @@
         }
       },
       "MyMicroRabbit.Banking.Domain/1.0.0": {
+        "dependencies": {
+          "MyMicroRabbit.Domain.Core": "1.0.0"
+        },
         "runtime": {
           "MyMicroRabbit.Banking.Domain.dll": {}
         },
@@ -1530,6 +1534,7 @@
       },
       "MyMicroRabbit.Infra.IoC/1.0.0": {
         "dependencies": {
+          "MediatR": "8.1.0",
           "Microsoft.Extensions.DependencyInjection": "3.1.8",
           "MyMicroRabbit.Banking.Application": "1.0.0",
           "MyMicroRabbit.Banking.Data": "1.0.0",

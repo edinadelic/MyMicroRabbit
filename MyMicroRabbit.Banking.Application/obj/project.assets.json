@@ -2,28 +2,77 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "MediatR/8.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
       "MyMicroRabbit.Banking.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MyMicroRabbit.Domain.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/MyMicroRabbit.Banking.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/MyMicroRabbit.Banking.Domain.dll": {}
         }
+      },
+      "MyMicroRabbit.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MediatR": "8.1.0"
+        },
+        "compile": {
+          "bin/placeholder/MyMicroRabbit.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyMicroRabbit.Domain.Core.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "MediatR/8.1.0": {
+      "sha512": "KJFnA0MV83bNOhvYbjIX1iDykhwFXoQu0KV7E1SVbNA/CmO2I7SAm2Baly0eS7VJ2GwlmStLajBfeiNgTpvYzQ==",
+      "type": "package",
+      "path": "mediatr/8.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.8.1.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
     "MyMicroRabbit.Banking.Domain/1.0.0": {
       "type": "project",
       "path": "../MyMicroRabbit.Banking.Domain/MyMicroRabbit.Banking.Domain.csproj",
       "msbuildProject": "../MyMicroRabbit.Banking.Domain/MyMicroRabbit.Banking.Domain.csproj"
+    },
+    "MyMicroRabbit.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../MyMicroRabbit.Domain.Core/MyMicroRabbit.Domain.Core.csproj",
+      "msbuildProject": "../MyMicroRabbit.Domain.Core/MyMicroRabbit.Domain.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "MyMicroRabbit.Banking.Domain >= 1.0.0"
+      "MyMicroRabbit.Banking.Domain >= 1.0.0",
+      "MyMicroRabbit.Domain.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -54,6 +103,9 @@
           "projectReferences": {
             "C:\\Users\\mdade\\MyMicroRabbit\\MyMicroRabbit.Banking.Domain\\MyMicroRabbit.Banking.Domain.csproj": {
               "projectPath": "C:\\Users\\mdade\\MyMicroRabbit\\MyMicroRabbit.Banking.Domain\\MyMicroRabbit.Banking.Domain.csproj"
+            },
+            "C:\\Users\\mdade\\MyMicroRabbit\\MyMicroRabbit.Domain.Core\\MyMicroRabbit.Domain.Core.csproj": {
+              "projectPath": "C:\\Users\\mdade\\MyMicroRabbit\\MyMicroRabbit.Domain.Core\\MyMicroRabbit.Domain.Core.csproj"
             }
           }
         }

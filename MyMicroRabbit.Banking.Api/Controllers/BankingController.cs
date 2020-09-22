@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
+using MyMicroRabbit.Banking.Application.Dtos;
 using MyMicroRabbit.Banking.Application.Interfaces;
-using MyMicroRabbit.Banking.Application.Services;
 using MyMicroRabbit.Banking.Domain.Models;
 
 namespace MyMicroRabbit.Banking.Api.Controllers
@@ -27,6 +23,13 @@ namespace MyMicroRabbit.Banking.Api.Controllers
         {
             var accounts = _accountService.GetAccounts();
             return Ok(accounts);
+        }
+
+        [HttpPost]
+        public IActionResult Post([FromBody] AccountTransferDto accountTransfer)
+        {
+            _accountService.Transfer(accountTransfer);
+            return Ok(accountTransfer);
         }
     }
 }

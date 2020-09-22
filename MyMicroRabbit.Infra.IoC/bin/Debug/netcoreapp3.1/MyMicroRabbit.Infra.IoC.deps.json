@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "MyMicroRabbit.Infra.IoC/1.0.0": {
         "dependencies": {
+          "MediatR": "8.1.0",
           "Microsoft.Extensions.DependencyInjection": "3.1.8",
           "MyMicroRabbit.Banking.Application": "1.0.0",
           "MyMicroRabbit.Banking.Data": "1.0.0",
@@ -814,6 +815,12 @@
       "System.Security.Permissions/4.5.0": {
         "dependencies": {
           "System.Security.AccessControl": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
         }
       },
       "System.Security.Principal.Windows/4.5.0": {
@@ -959,7 +966,8 @@
       },
       "MyMicroRabbit.Banking.Application/1.0.0": {
         "dependencies": {
-          "MyMicroRabbit.Banking.Domain": "1.0.0"
+          "MyMicroRabbit.Banking.Domain": "1.0.0",
+          "MyMicroRabbit.Domain.Core": "1.0.0"
         },
         "runtime": {
           "MyMicroRabbit.Banking.Application.dll": {}
@@ -976,6 +984,9 @@
         }
       },
       "MyMicroRabbit.Banking.Domain/1.0.0": {
+        "dependencies": {
+          "MyMicroRabbit.Domain.Core": "1.0.0"
+        },
         "runtime": {
           "MyMicroRabbit.Banking.Domain.dll": {}
         }

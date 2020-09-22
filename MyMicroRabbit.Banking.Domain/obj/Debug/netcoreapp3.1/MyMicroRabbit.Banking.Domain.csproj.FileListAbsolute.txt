@@ -1,9 +1,12 @@
 C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Banking.Domain\bin\Debug\netcoreapp3.1\MyMicroRabbit.Banking.Domain.deps.json
 C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Banking.Domain\bin\Debug\netcoreapp3.1\MyMicroRabbit.Banking.Domain.dll
 C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Banking.Domain\bin\Debug\netcoreapp3.1\MyMicroRabbit.Banking.Domain.pdb
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Banking.Domain\bin\Debug\netcoreapp3.1\MyMicroRabbit.Domain.Core.dll
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Banking.Domain\bin\Debug\netcoreapp3.1\MyMicroRabbit.Domain.Core.pdb
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Banking.Domain\obj\Debug\netcoreapp3.1\MyMicroRabbit.Banking.Domain.csprojAssemblyReference.cache
 C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Banking.Domain\obj\Debug\netcoreapp3.1\MyMicroRabbit.Banking.Domain.AssemblyInfoInputs.cache
 C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Banking.Domain\obj\Debug\netcoreapp3.1\MyMicroRabbit.Banking.Domain.AssemblyInfo.cs
 C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Banking.Domain\obj\Debug\netcoreapp3.1\MyMicroRabbit.Banking.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Banking.Domain\obj\Debug\netcoreapp3.1\MyMicroRabbit.Banking.Domain.csproj.CopyComplete
 C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Banking.Domain\obj\Debug\netcoreapp3.1\MyMicroRabbit.Banking.Domain.dll
 C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Banking.Domain\obj\Debug\netcoreapp3.1\MyMicroRabbit.Banking.Domain.pdb
-C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Banking.Domain\obj\Debug\netcoreapp3.1\MyMicroRabbit.Banking.Domain.csprojAssemblyReference.cache
