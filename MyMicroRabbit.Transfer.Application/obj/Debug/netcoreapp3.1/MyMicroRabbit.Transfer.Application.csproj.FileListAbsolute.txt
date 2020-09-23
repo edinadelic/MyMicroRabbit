@@ -1,0 +1,8 @@
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MyMicroRabbit.Transfer.Application.deps.json
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MyMicroRabbit.Transfer.Application.dll
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Transfer.Application\bin\Debug\netcoreapp3.1\MyMicroRabbit.Transfer.Application.pdb
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MyMicroRabbit.Transfer.Application.AssemblyInfoInputs.cache
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MyMicroRabbit.Transfer.Application.AssemblyInfo.cs
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MyMicroRabbit.Transfer.Application.csproj.CoreCompileInputs.cache
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MyMicroRabbit.Transfer.Application.dll
+C:\Users\mdade\MyMicroRabbit\MyMicroRabbit.Transfer.Application\obj\Debug\netcoreapp3.1\MyMicroRabbit.Transfer.Application.pdb
