@@ -11,3 +11,4 @@ namespace MyMicroRabbit.Banking.Application.Dtos
         public decimal TransferAmount { get; set; }
     }
 }
+

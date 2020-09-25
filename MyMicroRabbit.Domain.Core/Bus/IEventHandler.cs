@@ -11,8 +11,5 @@ namespace MyMicroRabbit.Domain.Core.Bus
     {
         Task Handle(TEvent @event);
     }
-    public interface IEventHandler
-    {
-
-    }
+    public interface IEventHandler {}
 }

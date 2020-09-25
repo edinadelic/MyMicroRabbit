@@ -13,7 +13,9 @@
           "MyMicroRabbit.Banking.Application": "1.0.0",
           "MyMicroRabbit.Banking.Data": "1.0.0",
           "MyMicroRabbit.Domain.Core": "1.0.0",
-          "MyMicroRabbit.Infrastructure.Bus": "1.0.0"
+          "MyMicroRabbit.Infrastructure.Bus": "1.0.0",
+          "MyMicroRabbit.Transfer.Application": "1.0.0",
+          "MyMicroRabbit.Transfer.Data": "1.0.0"
         },
         "runtime": {
           "MyMicroRabbit.Infra.IoC.dll": {}
@@ -1001,12 +1003,42 @@
       },
       "MyMicroRabbit.Infrastructure.Bus/1.0.0": {
         "dependencies": {
+          "MediatR": "8.1.0",
+          "Microsoft.Extensions.DependencyInjection": "3.1.8",
           "MyMicroRabbit.Domain.Core": "1.0.0",
           "Newtonsoft.Json": "12.0.3",
           "RabbitMQ.Client": "6.2.1"
         },
         "runtime": {
           "MyMicroRabbit.Infrastructure.Bus.dll": {}
+        }
+      },
+      "MyMicroRabbit.Transfer.Application/1.0.0": {
+        "dependencies": {
+          "MyMicroRabbit.Domain.Core": "1.0.0",
+          "MyMicroRabbit.Transfer.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MyMicroRabbit.Transfer.Application.dll": {}
+        }
+      },
+      "MyMicroRabbit.Transfer.Data/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8",
+          "MyMicroRabbit.Transfer.Application": "1.0.0",
+          "MyMicroRabbit.Transfer.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MyMicroRabbit.Transfer.Data.dll": {}
+        }
+      },
+      "MyMicroRabbit.Transfer.Domain/1.0.0": {
+        "dependencies": {
+          "MyMicroRabbit.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "MyMicroRabbit.Transfer.Domain.dll": {}
         }
       }
     }
@@ -1724,6 +1756,21 @@
       "sha512": ""
     },
     "MyMicroRabbit.Infrastructure.Bus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyMicroRabbit.Transfer.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyMicroRabbit.Transfer.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyMicroRabbit.Transfer.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

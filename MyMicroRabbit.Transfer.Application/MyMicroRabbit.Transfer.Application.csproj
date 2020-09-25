@@ -1,7 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyMicroRabbit.Domain.Core\MyMicroRabbit.Domain.Core.csproj" />
+    <ProjectReference Include="..\MyMicroRabbit.Transfer.Domain\MyMicroRabbit.Transfer.Domain.csproj" />
+  </ItemGroup>
 
 </Project>
