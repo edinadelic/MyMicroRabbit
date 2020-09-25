@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ysAhwPRrvTBcFvF9/b0BgY+n06UWIihQt3NbMA/qf3bEkgHCFMsUYYQfAdMa6zjYfA7YBiQJCkcYQGSaz9UBTQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mdade\\MyMicroRabbit\\MicroRabbit.MVC\\MicroRabbit.MVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mdade\\.nuget\\packages\\bootstrap\\4.5.2\\bootstrap.4.5.2.nupkg.sha512",
+    "C:\\Users\\mdade\\.nuget\\packages\\jquery\\3.0.0\\jquery.3.0.0.nupkg.sha512",
+    "C:\\Users\\mdade\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\mdade\\.nuget\\packages\\popper.js\\1.16.1\\popper.js.1.16.1.nupkg.sha512"
+  ],
+  "logs": []
+}

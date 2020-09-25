@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+ </div>
+<div class="container">
+    <h2>Create Transfer</h2>
+    <form action="home/createTransfer" method="post">
+        <div class="form-group">
+            <label for="fromAccount">From Account:</label>
+            <input type="text" class="form-control" id="fromAccount" placeholder="Enter Sender Account" name="fromAccount">
+        </div>
+        <div class="form-group">
+            <label for="toAccount">To Account:</label>
+            <input type="text" class="form-control" id="toAccount" placeholder="Enter Receiving Account" name="toAccount">
+        </div>
+        <div class="form-group">
+            <label for="transferAmount">Transfer Amount:</label>
+            <input type="text" class="form-control" id="transferAmount" placeholder="Enter Transfer" name="transferAmount">
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+</div>
